@@ -33,6 +33,7 @@ a {
   background-color: #ffffff;
   position: relative;
   cursor: pointer;
+  border-radius: 10px;
 }
 .member-img {
   width: 362px;
@@ -44,6 +45,8 @@ a {
   height: 100%;
   object-position: center;
   object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .hover-img {
   position: absolute;
@@ -71,6 +74,9 @@ a {
   padding: 20px 10px;
   background-color: #ffffff;
   z-index: 2;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
 }
 .member-name h3,
 .member-name h5 {
@@ -99,6 +105,7 @@ a {
   grid-template-rows: auto;
   grid-gap: 20px;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 .detail-box-1,
 .detail-box-2,
@@ -118,7 +125,8 @@ a {
 .detail-box-16,
 .detail-box-17,
 .detail-box-18,
-.detail-box-19{
+.detail-box-19,
+.detail-box-20{
   grid-column: 1/4;
   display: none;
 }
@@ -131,6 +139,7 @@ a {
   height: 100%;
   object-position: center;
   object-fit: cover;
+  border-radius: 10px;
 }
 .detail-box-text {
   padding: 20px 20px 20px 0px;
@@ -182,6 +191,7 @@ a {
   align-items: center;
   color: #ffffff;
   background-color: #202020;
+  border-radius: 10px;
 }
 .view-work-btn:hover,
 .cancel:hover {
@@ -200,6 +210,7 @@ a {
   align-items: center;
   color: #ffffff;
   background-color: #202020;
+  border-radius: 10px;
 }
 .show-details-1,
 .show-details-2,
@@ -243,7 +254,8 @@ a {
   grid-row: 7/8;
   animation: fade 0.3s;
 }
-.show-details-19 {
+.show-details-19,
+.show-details-20 {
   display: grid;
   grid-row: 8/9;
   animation: fade 0.3s;
@@ -339,7 +351,8 @@ a {
     grid-row: 10/11;
     grid-column: 1/3;
   }
-  .show-details-19 {
+  .show-details-19,
+  .show-details-20 {
     display: grid;
     grid-row: 11/12;
     grid-column: 1/3;
@@ -410,7 +423,8 @@ a {
   .show-details-16,
   .show-details-17,
   .show-details-18,
-  .show-details-19 {
+  .show-details-19,
+  .show-details-20 {
     grid-column: 1/2;
   }
   .show-details-1 {
@@ -469,5 +483,8 @@ a {
   }
   .show-details-19 {
     grid-row: 20/21;
+  }
+  .show-details-20 {
+    grid-row: 21/22;
   }
 }
